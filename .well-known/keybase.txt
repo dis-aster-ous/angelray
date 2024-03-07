@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/thebinarium
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://angelray.dj
+  * I am thebinarium (https://keybase.io/thebinarium) on keybase.
+  * I have a public key with fingerprint F317 7926 34AC 5E02 842F  4E04 48BD AE11 FEE7 8E5E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101217db7b7db9aa5358830bc6b04216a2ff28129697a6aeb15f753e6253b5fa75b0a",
+      "fingerprint": "f317792634ac5e02842f4e0448bdae11fee78e5e",
+      "host": "keybase.io",
+      "key_id": "48bdae11fee78e5e",
+      "kid": "0101c9c8368a4fec2605adada2b64eb54fd13ab2d468ca4e5e7f3a09294ec0e5b5250a",
+      "uid": "838e425d81b631f210d41daa3e396f19",
+      "username": "thebinarium"
+    },
+    "service": {
+      "hostname": "angelray.dj",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1709816063,
+  "expire_in": 157680000,
+  "prev": "e567c4c1c99a8e522bb4e929f17ad9289148dc3cad90b4b815fc9b68aa53b91f",
+  "seqno": 170,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNwAnicbVJ9TJVVHL4XjC/JcCKkE1ivc0Hcwfv9AURshlNkRGRbDPByzvueF67A
+vfDely8ZfSyVjGrlgAWGRiIgNIKYLAyWoAgOBpQKDTQmMKASKWEsJKRzma1/Omc7
+Z+ec53nO83vOuf6ss8HDeLCrefuTuU+OGge6z+Ya0K/fbRQR0KYUEmFFRAbanFCm
+guy6OcOiEGEESZEUTQkKFCAeJAA4hhNFhoQyD0mWpnhAqyotUrTESwLgAYIUpwoc
+g3iaYyCnAoGDJCBMhGqxpiEtW7NYdSyrMpQgSDTPsEDmEEmLLK2yiGRZESoAUZSK
+kCAiDmFius3uYGBzENhRiMWG9/DCvGnvf/D/+ZYlWWR4EbAqkmme5ICCOw15FkGO
+VRWKAZBWWF6UAYupgsoAUqIlFskk4iBHc5u+czflREZELM0pIgV5hlJpilRYSgGA
+QYzEq5TkANqRZgVZCKP1dAQtVqBZcrOIYhOBD/IsMnJk6yjmKQjgPDI1UBiiHMPs
+bM2m22RbJj5I1/Vse5iDqBdmO5D5CJqfapixroKTxIw8pNktNisRRmGkrFscopRA
+SiLFkzxjIlBBtkVDZosDwQm8SOLmuAflYUnE8YLMyjgiCeDcaBpCFuHiVUoAikSL
+EsWKiszIeEFCFor4UWUJ4izx+0OJUglHVTlW2+aV2ChIw6J2S5oV6LkaIop7upO3
+GIweBpdnnBx/zODh7vXvzyvRvQwfF5/6MU4XhZvrRYmVM72i2EYbTvSFxPRePrU+
+WrU/J6S2EtU2/nR74uSTJaewjdYPKrdXr60OZpGl+XafqKjhj3wTY2182fnx5Reh
+SXuJnj5/Od5UnH3y24GXH0Z1aO/rVeTU6CtrP8eUuvmFPjde7Dm03BF7YNfE5NfB
+/vORD1L9E/qmE4Mbp294x/xRX7LqJ8z0h2uG6PHEBqf3kg43DmXO71xsCeGuTgW0
+Of8w6Bzt195VfzEgqS/c6cKEU37gwOo5e1B5Reif3q5bcqphnVaeob15cCbB/OlC
+0OOW3W7zXcEB3WOdY59/5dq7z9csLt1/vi5+9FC7x5dHt0X9fnUqs6xJHr6143Rq
+6r30gmv9EZE1a953/r435F1Vv+/syLmErvDxxczIWJ+KktkV15449+QjFac7hUCv
+pvkzdVONzjOePqFjaVtrWnvf8ByboCffCVwxgsgb5VEPcq4d3+95fW5rylLUmVc3
+9hTsak7xaHucOBIR+1ac61+XDoySX7RMZBh+8bh1O6ghxX95aeH7xUffGO/vfbuD
+BRdX3FxMe+cO3y3sZFrbR6pfi+6Jr02uST3SX/LIvcNldvCmUM9VHLqykLT8etie
+z0w7PmwK92vt3LbYULV4rGxnQ4priuuFat/fXiC1S1cmTzyk4Oy7d3yODxNljHld
+n0UR6aWRtU7N1buNd/8BV0DIXQ==
+=FqcM
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thebinarium
+
+==================================================================
