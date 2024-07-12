@@ -6,22 +6,43 @@
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
     <title>angelRay ✧</title>
     <style type="text/css">
-      body {
-        margin: 0;
-        height: 100%;
-        overflow: hidden;
-      }
-
-      .boxLinks {
-        margin: 20px 30%;
-      }
-
       @font-face {
         font-family: SpaceMono;
         src: url(SpaceMono-Bold.ttf);
       }
 
-      .boxLinks {
+      @font-face {
+        font-family: Volkhov;
+        src: url(Volkhov-Regular.ttf);
+      }
+
+      body {
+        background-color: black;
+        margin: 0;
+        height: 100%;
+      }
+
+      .logoImg {
+        width: 100%;
+      }
+
+      .subtitleStars {
+        display: flex;
+        color: white;
+        font-size: 50px;
+        width: 100%;
+        
+        div {
+          width: 100%;
+          text-align: center;
+        }
+
+        margin-bottom: 40px;
+      }
+
+      .boxLinks, .infoLinks {
+        list-style-type: none;
+        margin: 20px 30%;
         padding: 0;
       }
 
@@ -46,15 +67,84 @@
           color: black;
         }
       }
+
+      .infoLinks li {
+        font-family: SpaceMono;
+        color: white;
+        margin: 10px 0;
+
+        a {
+          color: white;
+        }
+      }
+
+      .slogan {
+        font-family: Volkhov;
+        color: white;
+        font-size: 80px;
+        width: 100%;
+        text-align: center;
+        margin: 50px 0;
+      }
+
+      .footer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 50px 0;
+
+        .disclaimer {
+          color: white;
+          white-space: pre-line;
+          text-align: center;
+          flex: 1;
+        }
+
+        img {
+          padding: 0 50px;
+        }
+
+        .datImg {
+          width: 50px;
+        }
+
+        .dolbyImg {
+          width: 50px;
+        }
+      }
     </style>
   </head>
-  <body style="background-color: #000000;">
+  <body>
     <div class="container">
-      <img src="angelray.svg" style="width: 100%;" />
-      <p style="color: white; font-size: 50px; margin: 0 auto;">✧</p>
+      <img src="angelray.svg" class="logoImg"/>
+      <div class="subtitleStars">
+        <div>✧</div>
+        <div>✧</div>
+        <div>✧</div>
+      </div>
       <ul class="boxLinks">
         <li><a href="https://soundcloud.com/angel_ray_2k/charli-xcx-360-angelray-remix" target="_blank">Charli xcx - 360 (angelRay Remix)</a></li>
       </ul>
+      <ul class="infoLinks">
+        <li><a href="https://angelray2k.bandcamp.com" target="_blank">Bandcamp</a></li>
+        <li><a href="https://soundcloud.com/angel_ray_2k" target="_blank">Soundcloud</a></li>
+        <li><a href="https://ra.co/dj/angelray" target="_blank">Resident Advisor</a></li>
+        <li><a href="https://www.instagram.com/angel.ray.2k/" target="_blank">Instagram</a></li>
+        <li><a href="https://x.com/angelray2k" target="_blank">Twitter</a></li>
+        <li>Contact: <a href="mailto:aster@angelray.dj" target="_blank">aster@angelray.dj</a></li>
+        <li>Booking: <a href="mailto:booking@angelray.dj" target="_blank">booking@angelray.dj</a></li>
+      </ul>
+      <div class="slogan">
+        TRANCE IS GOD'S MUSIC
+      </div>
+      <div class="footer">
+        <img src="dat.png" class="datImg">
+        <div class="disclaimer">All rights of the manufacturer and of the owners of the recorded work
+          reserved. Unauthorized public performance, broadcasting, and
+          copying of this recording prohibited.
+        </div>
+        <img src="dolby.png" class="dolbyImg">
+      </div>
     </div>
   </body>
 </html>
