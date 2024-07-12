@@ -33,19 +33,27 @@
         color: white;
         font-size: 50px;
         width: 100%;
+        margin-bottom: 40px;
         
         div {
           width: 100%;
           text-align: center;
         }
 
-        margin-bottom: 40px;
+        @media (max-width: 900px) {
+          font-size: 20px;
+          margin-bottom: 20px;
+        }
       }
 
       .boxLinks, .infoLinks {
         list-style-type: none;
         margin: 20px 30%;
         padding: 0;
+
+        @media (max-width: 900px) {
+          margin: 20px 20px;
+        }
       }
 
       .boxLinks li {
@@ -90,8 +98,17 @@
         color: white;
         font-size: 80px;
         width: 100%;
+        box-sizing: border-box;
         text-align: center;
         margin: 50px 0;
+
+        @media (max-width: 900px) {
+          padding-left: 25px;
+          padding-right: 25px;
+          font-size: 44px;
+          margin-top: 20px;
+          margin-bottom: 0;
+        }
       }
 
       .footer {
@@ -100,6 +117,10 @@
         width: 100%;
         margin: 50px 0;
 
+        @media (max-width: 900px) {
+          margin: 20px 0;
+        }
+
         .disclaimer {
           font-family: Volkhov;
           font-size: 11px;
@@ -107,10 +128,18 @@
           white-space: pre-line;
           text-align: center;
           flex: 1;
+
+          @media (max-width: 900px) {
+            font-size: 7px;
+          }
         }
 
         img {
           padding: 0 50px;
+
+          @media (max-width: 900px) {
+            padding: 0 10px;
+          }
         }
 
         .datImg {
