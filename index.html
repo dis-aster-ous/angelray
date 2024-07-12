@@ -12,35 +12,39 @@
         overflow: hidden;
       }
 
-      .container {
-        display: flex;
-        flex-wrap: wrap;
+      .boxLinks {
+        margin: 20px 30%;
       }
 
-      .gridItem {
-        border: dotted 1px #FFFFFF;
-        width: 16.6666%;
-        aspect-ratio: 1;
-        box-sizing: border-box;
-        position: relative;
+      @font-face {
+        font-family: SpaceMono;
+        src: url(SpaceMono-Bold.ttf);
       }
 
-      .gridItem::before {
-        content: '✧';
-        position: absolute;
-        color: #FFFFFF;
-        font-size: 32px;
-        top: -19px;
-        left: -13px;
+      .boxLinks {
+        padding: 0;
       }
 
-      .gridItem:nth-child(6n):after {
-        content: '✧';
-        position: absolute;
-        color: #FFFFFF;
-        font-size: 32px;
-        top: -19px;
-        right: -13px;
+      .boxLinks li {
+        border: 1px solid white;
+        margin-bottom: 25px;
+        overflow: hidden;
+      }
+
+      .boxLinks li a {
+        font-family: SpaceMono;
+        color: white;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: inline-block;
+        width: 100%;
+
+        &:hover {
+          background-color: white;
+          color: black;
+        }
       }
     </style>
   </head>
@@ -48,6 +52,9 @@
     <div class="container">
       <img src="angelray.svg" style="width: 100%;" />
       <p style="color: white; font-size: 50px; margin: 0 auto;">✧</p>
+      <ul class="boxLinks">
+        <li><a href="https://soundcloud.com/angel_ray_2k/charli-xcx-360-angelray-remix" target="_blank">Charli xcx - 360 (angelRay Remix)</a></li>
+      </ul>
     </div>
   </body>
 </html>
